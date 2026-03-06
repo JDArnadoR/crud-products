@@ -24,3 +24,17 @@ jobs:
 
       - name: Run tests
         run: pytest --maxfail=1 --disable-warnings -q
+
+  docker-deploy:
+    runs-on: ubuntu-latest
+    needs: build-test
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Build Docker image
+        run: docker build -t crud-products .
+
+      - name: Run container
+        run: docker run -d -p 8000:8000 crud-products
