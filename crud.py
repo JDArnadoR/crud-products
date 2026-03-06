@@ -56,6 +56,7 @@ def delete_product(product_id):
 
     return True
 
+
 # Ejecutar programa en consola
 if __name__ == "__main__":
     while True:
