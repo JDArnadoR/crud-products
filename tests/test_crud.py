@@ -1,5 +1,6 @@
 import crud
 
+
 def test_create_product():
     product = {"id": 1, "name": "Laptop", "price": 1200}
     result = crud.create_product(product)
