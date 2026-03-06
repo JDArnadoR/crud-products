@@ -3,6 +3,7 @@ import os
 
 FILE_PATH = "products.json"
 
+
 def _load_data():
     """Carga los productos desde el archivo JSON"""
     if not os.path.exists(FILE_PATH):
@@ -43,6 +44,7 @@ def update_product(product_id, new_data):
 
     return None
 
+
 def delete_product(product_id):
     """Elimina un producto por su id"""
     data = _load_data()
@@ -50,6 +52,6 @@ def delete_product(product_id):
 
     if len(new_data) == len(data):
         return False
-
     _save_data(new_data)
+
     return True
