@@ -23,7 +23,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run tests
-        run: pytest --maxfail=1 --disable-warnings -q
+        run: PYTHONPATH=. pytest --maxfail=1 --disable-warnings -q
 
   docker-deploy:
     runs-on: ubuntu-latest
