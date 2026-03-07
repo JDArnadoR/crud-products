@@ -3,9 +3,9 @@
 **Nombre del estudiante:** JULIO DAVID ARNADO RIVERA
 
 ## Índice
-- [Funcionamiento del CRUD](#funcionamiento-del-crud)
-- [Ejecución del pipeline](#ejecución-del-pipeline)
-- [Ejecución exitosa del pipeline](#ejecución-exitosa-del-pipeline)
+- [Funcionamiento del CRUD](#books-funcionamiento-del-crud)
+- [Ejecución del pipeline](#books-ejecución-del-pipeline)
+- [Ejecución exitosa del pipeline](#books-ejecución-exitosa-del-pipeline)
 
 ## :books: Descripción
 
